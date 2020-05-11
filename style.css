@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://unsplash.com/photos/O2o1hzDA7iE/download?force=true&w=1920");
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #000000b0;
+    background-blend-mode: multiply;
+}
+#main {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    margin-top: 60px;
+}
+
+#main h1 {
+    font-size: 3em;
+    color: rgb(7, 202, 7);
+}
+
+#main p {
+    opacity: 0.8;
+}
+
+
+#survey-form {
+    max-width: 600px;
+    text-align: left;
+    background-color: rgb(245, 245, 245);
+    color: #252525;
+    padding: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+input {
+    font-size: 17px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="submit"],
+select,
+textarea {
+    width: 100%;
+    height: 44px;
+    padding: 5px 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+select {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 30px;
+    margin-left: -10px;
+}
+
+#front-end {
+    margin-top: 16px;
+}
+
+#additional-course {
+    margin-bottom: 40px;
+}
+
+textarea {
+    height: 100px;
+    font-size: 17px;
+}
+
+
+input[type="submit"] {
+    border: none;
+    background-color: rgb(98, 180, 90);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px auto;
+}
+
+@media (max-width: 760px) {
+    #main {
+        width: 95%;
+    }
+}
